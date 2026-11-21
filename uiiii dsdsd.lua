@@ -1567,7 +1567,7 @@ t1.MakeWindow = function(p82, p83)
 	}), "Main")
 	local ImageLabel = v19("ImageLabel", main, {
 		Name = "AnimatedBackground",
-		Size = UDim2.new(1, 50, 1, 50),
+		Size = UDim2.new(1, 0, 1, 0),
 		Position = UDim2.new(0, 0, 0, 0),
 		BackgroundTransparency = 1,
 		Image = "rbxassetid://75868970394868",
