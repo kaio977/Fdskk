@@ -1009,7 +1009,7 @@ pcall(function(p11)
 			end
 		end
 	end
-end, "redz library V5.json")
+end, "astryx hub V5.json")
 
 local t3 = {
 	InsertCallback = function(p12, p13, p14)
@@ -1494,7 +1494,7 @@ t1.SetTheme = function(p76, p77)
 	end
 
 	t1.Save.Theme = p77
-	v66("redz library V5.json", t1.Save)
+	v66("astryx hub V5.json", t1.Save)
 	u68 = t1.Themes[p77]
 	Connection:FireConnection("ThemeChanged", p77)
 	table.foreach(t1.Instances, function(p78, p79)
@@ -1576,14 +1576,14 @@ t1.MakeWindow = function(p82, p83)
 		ZIndex = 0
 	})
 
-	v70("Corner", ImageLabel, UDim.new(0, 10))
+	v70("Corner", ImageLabel, UDim.new(0, 8))
 	v70("Gradient", main, {
 		Rotation = 45,
 		Transparency = NumberSequence.new(0.8)
 	})
 	v58(main)
 
-	local Corner = v70("Corner", main, UDim.new(0, 10))
+	local Corner = v70("Corner", main, UDim.new(0, 8))
 	local Folder = v19("Folder", main, {
 		Name = "Components"
 	})
@@ -1689,12 +1689,12 @@ t1.MakeWindow = function(p82, p83)
 				main.Size.X.Offset,
 				main.Size.Y.Offset
 			}
-			v66("redz library V5.json", t1.Save)
+			v66("astryx hub V5.json", t1.Save)
 		end
 	end)
 	v50(v114, function()
 		t1.Save.TabSize = scrollBar.Size.X.Offset
-		v66("redz library V5.json", t1.Save)
+		v66("astryx hub V5.json", t1.Save)
 	end)
 
 	local Folder3 = v19("Folder", Frame, {
@@ -1729,7 +1729,7 @@ t1.MakeWindow = function(p82, p83)
 	t10.CloseBtn = function()
 		t10:Dialog({
 			Title = "Fechar",
-			Text = "Deseja realmente fechar o Coquette Hub?",
+			Text = "Deseja realmente fechar o Astryx Hub?",
 			Options = {
 				{
 					"Confirmar",
