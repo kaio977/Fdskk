@@ -69,7 +69,7 @@ local redzlib = {
 	Save = {
 		UISize = {640, 430},
 		TabSize = 190,
-		Theme = "Halloween" 
+		Theme = "Hacker" 
 	},
 	Settings = {},
 	Connection = {},
